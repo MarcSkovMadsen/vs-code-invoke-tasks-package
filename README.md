@@ -34,7 +34,11 @@ pip install pyinvoke
 You can now test the installation by running
 
 ```bash
-invoke --list
+$ invoke --list
+Available tasks:
+
+  hello.world   Echo Hello World
+  world.hello   Echo World Hello
 ```
 
 and
@@ -50,3 +54,15 @@ and
 $ invoke world.hello
 World Hello
 ```
+
+## The Tasks package
+
+I've created an Invoke *tasks package* in the *tasks folder*. The __init__.py ties the *hello.py* and *world.py* submodules of tasks together and makes them available from the command line using the ```invoke``` command.
+
+.
+├── README.md
+└── tasks
+    ├── __init__.py__
+    ├── hello.py__
+    └── world.py
+
