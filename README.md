@@ -57,12 +57,15 @@ World Hello
 
 ## The Tasks package
 
-I've created an Invoke *tasks package* in the *tasks folder*. The __init__.py ties the *hello.py* and *world.py* submodules of tasks together and makes them available from the command line using the ```invoke``` command.
+I've created an Invoke *tasks package* in the *tasks folder*.
 
+```bash
 .
 ├── README.md
 └── tasks
     ├── __init__.py__
     ├── hello.py__
     └── world.py
+```
 
+The *__init__.py* module ties the *hello.py* and *world.py* submodules of tasks together and makes them available from the command line using the ```invoke``` command.
