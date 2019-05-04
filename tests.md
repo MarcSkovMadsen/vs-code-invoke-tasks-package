@@ -28,9 +28,9 @@ This file describes what I've done to test the vs code Invoke extension and the 
 
 ## Next Steps
 
-- I think the text 'No task definition file found (tasks or tasks.py)' could be improved if changed to 'No tasks module (tasks.py) or package (/tasks) found'
+- **I think the text 'No task definition file found (tasks or tasks.py)' could be improved if changed to 'No tasks module (tasks.py) or package (/tasks) found'**
 
-- I would have like to debug the extension.js then it would have been easy to see what goes wrong. But i'm not able to do this. Even after googling how to debug installed vs code extensions.
+- I would have liked to debug the extension.js file. Then it would have been easy to see what goes wrong. But i'm not able to do this. Even after googling how to debug installed vs code extensions.
 
 - But i can insert old school "console.log" into the extension
 
