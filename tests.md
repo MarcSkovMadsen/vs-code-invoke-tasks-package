@@ -6,7 +6,7 @@ This file describes what I've done to test the vs code Invoke extension and the 
 
 - Install Invoke extension v. 0.10
 
-![Install Invoke extension](vs_code_invoke_version.png)
+![Install Invoke extension](vs_code_invoke_version.PNG)
 
 - CTRL+SHIFT+P 'invoke a task'
 
